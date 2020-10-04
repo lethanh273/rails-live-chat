@@ -1,0 +1,23 @@
+<div class="ui container">
+  <h1>Messages</h1>
+
+  <%= form_for Message.new do |f| %>
+    <div class="ui large form">
+      <div class="field">
+        <label>HTTP style</label>
+        <%= f.text_field :body, placeholder: 'Enter your message via HTTP' %>
+      </div>
+    </div>
+  <% end %>
+
+  <form id="js-socket" class="ui large form">
+    <div class="field">
+      <label>WebSocket Style</label>
+      <input type="text", placeholder="Enter your message via WebSocket">
+    </div>
+  </form>
+
+  <div class="messages">
+    <%= render @messages %>
+  </div>
+</div>
