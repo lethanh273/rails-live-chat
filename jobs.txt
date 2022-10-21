@@ -1,0 +1,25 @@
+{
+   "description": "A list of occupations (jobs that people might have).",
+   "occupations":
+   [
+    "Leads",
+    "Referals",
+    "Business",
+    "Accountant",
+    "Architect",
+    "Banker",
+    "Designer",
+    "Event Organiser / Management",
+    "General Insurance",
+    "Graphic Design",
+    "Health & Safety Consultant",
+    "Investments",
+    "Management Consultant",
+    "Product(s)",
+    "Service(s)",
+    "Solicitor",
+    "Solution(s)",
+    "Stock Broker",
+    "Websites/Internet
+  ]
+}
