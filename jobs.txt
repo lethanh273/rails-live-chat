@@ -20,6 +20,6 @@
     "Solicitor",
     "Solution(s)",
     "Stock Broker",
-    "Websites/Internet
+    "Websites/Internet"
   ]
 }
